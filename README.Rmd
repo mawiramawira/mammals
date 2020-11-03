@@ -16,7 +16,6 @@ knitr::opts_chunk$set(
 # mammals
 
 <!-- badges: start -->
-![R](https://github.com/mawiramawira/mammals/workflows/R/badge.svg)
 <!-- badges: end -->
 
 The goal of mammals is to track mammal data for various species
@@ -29,4 +28,12 @@ You can install the released version of mammals from [CRAN](https://CRAN.R-proje
 install.packages("mammals")
 ```
 
+## Examples
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(mammals)
+summary(mammals)
+```
 
