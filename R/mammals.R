@@ -1,0 +1,47 @@
+#' Mammals
+#'
+#' This package is a dataset that tracks the latest
+#' taxonomic changes to species and higher groups of mammals
+#'
+#' @docType package
+#' @name mammals
+#' @aliases mammals mammals-package
+NULL
+
+#' "mammals"
+#'
+#' Home base for tracking the latest taxonomic changes to
+#' species and higher groups of mammals.
+#'
+#' @source \url{https://www.mammaldiversity.org/}
+#' @format A dataframe with 6370 elements
+#' \describe{
+#'   \item{common_name}{Common name}
+#'   \item{common_name_source}{Common Name Source}
+#'   \item{genus}{genus of mammal}
+#'   \item{species}{species of mammal}
+#'   \item{subspecies}{subspecies of mammal}
+#'   \item{canonical_sciname}{Canonical Science Name}
+#'   \item{deprecated_scientific}{Object}
+#'   \item{simple_linnean_group}{Ranked cohort}
+#'   \item{major_type}{Ranked magnaorder}
+#'   \item{major_subtype}{Ranked superorder}
+#'   \item{simple_linnean_subgroup}{ranked subgroup}
+#'   \item{linnean_family}{Ranked family}
+#'   \item{linnean_order}{Ranked order}
+#'   \item{genus_authority}{The person credited with the first formal use of the genus name}
+#'   \item{species_authority}{The person credited with the first formal use of the species name}
+#'   \item{notes}{Miscellaneous notes for the taxon}
+#'   \item{entry}{The long-form entry for the taxon}
+#'   \item{internal_id}{The internal ASM number for the taxon}
+#'   \item{source}{The primary data source for the entry}
+#'   \item{citation}{Citation for the taxon}
+#'   \item{image}{Path to an image, relative to mammaldiversity.org/, if it exists}
+#'   \item{image_caption}{Image Caption}
+#'   \item{image_credit}{Image credits}
+#'   \item{image_license}{Image License}
+#'   \item{taxon_author}{Last edited by ...}
+#'   \item{taxon_credit}{The credit for the taxon}
+#'   \item{taxon_credit_date}{The credit edit date}
+#' }
+"mammals"
