@@ -5,6 +5,7 @@ mammals
 =======
 
 <!-- badges: start -->
+![R](https://github.com/mawiramawira/mammals/workflows/R/badge.svg)
 <!-- badges: end -->
 
 The goal of mammals is to track mammal data for various species
