@@ -1,4 +1,4 @@
-#' Mammals
+#' mammals
 #'
 #' This package is a dataset that tracks the latest
 #' taxonomic changes to species and higher groups of mammals
