@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # mammals
 
 <!-- badges: start -->
+![R-CMD-check](https://github.com/mawiramawira/mammals/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
 The goal of mammals is to track mammal data for various species
