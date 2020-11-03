@@ -15,4 +15,5 @@ Installation
 You can install the released version of mammals from
 [CRAN](https://CRAN.R-project.org) with:
 
-    install.packages("mammals")
+    # install.packages("devtools")
+    remotes::install_github("mawiramawira/mammals")
