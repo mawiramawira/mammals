@@ -36,7 +36,7 @@ Codebook <- tribble(
 )%>%
   mutate(Name = to_any_case(Name))
 
-mammals <- read.csv("asm-species-2020-10-05.csv")
+mammals <- read.csv("asm-species-2020-10-05.csv",encoding = "latin1")
 colnames(mammals) <- to_any_case(colnames(mammals))
 
 usethis::use_data(mammals)

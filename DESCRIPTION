@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "dmbae21@amherst.edu",
            comment = c(ORCID = "0000-0002-3099-7580"))
-Description: Contains data about various mammals
+Description: Contains data about various mammals.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
