@@ -8,7 +8,8 @@ mammals
 ![R-CMD-check](https://github.com/mawiramawira/mammals/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-The goal of mammals is to track mammal data for various species
+The mammals dataset contains mammal data for various species> It is an R wrapper for the ASM Mammal Diversity Database:
+https://www.mammaldiversity.org/
 
 Installation
 ------------
