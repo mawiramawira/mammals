@@ -22,18 +22,26 @@ The goal of mammals is to track mammal data for various species
 
 ## Installation
 
-You can install the released version of mammals from [CRAN](https://CRAN.R-project.org) with:
-
 ``` r
-install.packages("mammals")
+install.packages("devtools")
+remotes::install_github("mawiramawira/mammals")
 ```
 
 ## Examples
 
-This is a basic example which shows you how to solve a common problem:
+Who are top 10 genus authorities(coined the most genus names used in modern science)?
 
-```{r example}
+```{r comment=NA,message = F,example}
 library(mammals)
-summary(mammals)
-```
+suppressMessages(library(dplyr))
 
+scientists <- mammals %>%
+  select(genus_authority)%>%
+  filter(genus_authority != "")%>%
+  group_by(genus_authority)%>%
+  summarise(amount_coined = n())%>%
+  arrange(desc(amount_coined))%>%
+  head(10)
+
+scientists
+```
